@@ -1,44 +1,49 @@
-# DEZSYS_07
-SOA AND RESTFUL WEBSERVICE
-Das neu eröffnete Unternehmen iKnow Systems ist spezialisiert auf Knowledgemanagement und bietet seinen Kunden die Möglichkeiten Daten und Informationen jeglicher Art in eine Wissensbasis einzupflegen und anschließend in der zentralen Wissensbasis nach Informationen zu suchen (ähnlich wikipedia).
+# DEZSYS-07 "SOA AND RESTFUL WEBSERVICE"
 
-Folgendes ist im Rahmen der Aufgabenstellung verlangt:
+Das neu eröffnete Unternehmen **iKnow Systems** ist spezialisiert auf **Knowledgemanagement** und bietet seinen Kunden die Möglichkeiten Daten und Informationen jeglicher Art in eine Wissensbasis einzupflegen und anschließend in der zentralen Wissensbasis nach Informationen zu suchen (ähnlich wikipedia).
 
-Entwerfen Sie ein Datenmodell, um die Eintraege der Wissensbasis zu speichern und um ein optimitiertes Suchen von Eintraegen zu gewaehrleisten. [2Pkt]
+<u>Folgendes ist im Rahmen der Aufgabenstellung verlangt:</u>
 
-Entwickeln Sie mittels RESTful Webservices eine Schnittstelle, um die Wissensbasis zu verwalten. Es muessen folgende Operationen angeboten werden:
-- Hinzufuegen eines neuen Eintrags
-- Aendern eines bestehenden Eintrags
-- Loeschen eines bestehenden Eintrags
+- Entwerfen Sie ein Datenmodell, um die Eintraege der Wissensbasis zu 
+speichern und um ein optimitiertes Suchen von Eintraegen zu 
+gewaehrleisten. **[2Pkt]**
 
-Alle Operationen muessen ein Ergebnis der Operation zurueckliefern. [3Pkt]
+- Entwickeln Sie mittels RESTful Webservices eine Schnittstelle, um die Wissensbasis zu verwalten. Es muessen folgende Operationen angeboten werden:
+    - **Hinzufuegen** eines neuen Eintrags
+    - **Aendern** eines bestehenden Eintrags
+    - **Loeschen** eines bestehenden Eintrags
 
-Entwickeln Sie in Java ein SOA Webservice, dass die Funktionalitaet Suchen anbietet und das SOAP Protokoll einbindet. Erzeugen Sie fuer dieses Webservice auch eine WSDL-Datei. [3Pkt]
+    Alle Operationen muessen ein Ergebnis der Operation zurueckliefern. **[3Pkt]**
 
-Entwerfen Sie eine Weboberflaeche, um die RESTful Webservices zu verwenden. [3Pkt]
+- Entwickeln Sie in **Java** ein **SOA Webservice**, dass die Funktionalitaet 
+Suchen anbietet und das **SOAP** Protokoll einbindet. 
+Erzeugen Sie fuer dieses Webservice auch eine **WSDL**-Datei. **[3Pkt]**
 
-Implementieren Sie einen einfachen Client mit einem User Interface (auch Commandline UI moeglich), der das SOA Webservice aufruft. [2Pkt]
+- Entwerfen Sie eine **Weboberflaeche**, um die **RESTful Webservices** zu verwenden. **[3Pkt]**
 
-Dokumentieren Sie im weiteren Verlauf den Datentransfer mit SOAP. [1Pkt]
+- Implementieren Sie einen **einfachen Client** mit einem User Interface 
+(auch Commandline UI moeglich), der das **SOA Webservice** aufruft. **[2Pkt]**
 
-Protokoll ist erforderlich! [2Pkt]
-Info:
-Gruppengroesse: 2 Mitglieder
-Punkte: 16
+- Dokumentieren Sie im weiteren Verlauf den Datentransfer mit SOAP. **[1Pkt]**
 
-Zum Testen bereiten Sie eine Routine vor, um die Wissensbasis mit einer 1 Million Datensaetze zu fuellen. Die Datensaetze sollen mindestens eine Laenge beim Suchbegriff von 10 Zeichen und bei der Beschreibung von 100 Zeichen haben! Ist die Performance bei der Suche noch gegeben?
+- Protokoll ist erforderlich! **[2Pkt]**
+  
+## Informationen
 
-Links
+- Gruppengroesse: 2 Mitglieder
+- Punkte: 16
 
-JEE Webservices: 
-http://docs.oracle.com/javaee/6/tutorial/doc/gijti.html
+Zum Testen bereiten Sie eine Routine vor, um die Wissensbasis mit einer **1 Million 
+Datensaetze** zu fuellen. Die Datensaetze sollen mindestens eine Laenge beim 
+Suchbegriff von 10 Zeichen und bei der Beschreibung von 100 Zeichen haben! 
+**Ist die Performance bei der Suche noch gegeben?**
 
-Apache Web Services Project: 
-http://ws.apache.org/
+## Links
 
-Apache Axis/Axis2:
-http://axis.apache.org
-http://axis.apache.org/axis2/java/core/
+- [JEE Webservices](http://docs.oracle.com/javaee/6/tutorial/doc/gijti.html) 
 
-IBM Article: Java Web services - JAXB and JAX-WS in Axis2:
-http://www.ibm.com/developerworks/java/library/j-jws8/index.html
+- [Apache Web Services Project](http://ws.apache.org/) 
+
+- [Apache Axis/Axis2](http://axis.apache.org)
+
+- [IBM Article: Java Web services - JAXB and JAX-WS in Axis2](http://www.ibm.com/developerworks/java/library/j-jws8/index.html)
