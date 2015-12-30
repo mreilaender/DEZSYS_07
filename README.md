@@ -28,7 +28,8 @@ Punkte: 16
 
 Zum Testen bereiten Sie eine Routine vor, um die Wissensbasis mit einer 1 Million Datensaetze zu fuellen. Die Datensaetze sollen mindestens eine Laenge beim Suchbegriff von 10 Zeichen und bei der Beschreibung von 100 Zeichen haben! Ist die Performance bei der Suche noch gegeben?
 
-Links:
+Links
+
 JEE Webservices: 
 http://docs.oracle.com/javaee/6/tutorial/doc/gijti.html
 
