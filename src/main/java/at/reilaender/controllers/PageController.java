@@ -20,14 +20,14 @@ public class PageController {
     @Autowired
     private PageTestDao pageTestDao;
 
-    @RequestMapping(method = RequestMethod.POST)
+    @RequestMapping(method = RequestMethod.POST, produces = "application/json")
     public ResponseEntity<PageTest> createPage(@RequestParam String title, @RequestParam(required = false) String description, @RequestParam String content) {
         PageTest pageTest = new PageTest(title, description, content);
         this.pageTestDao.save(pageTest);
         return new ResponseEntity<>(pageTest, HttpStatus.CREATED);
     }
 
-    @RequestMapping(method = RequestMethod.GET)
+    @RequestMapping(method = RequestMethod.GET, produces = "application/json")
     public ResponseEntity<PageTest> find(@RequestParam Integer id) {
         PageTest pageTest = null;
         pageTest = this.pageTestDao.findByPageId(id);
@@ -36,7 +36,7 @@ public class PageController {
         return new ResponseEntity<PageTest>(pageTest, HttpStatus.FOUND);
     }
 
-    @RequestMapping(method = RequestMethod.PUT)
+    @RequestMapping(method = RequestMethod.PUT, produces = "application/json")
     public ResponseEntity<PageTest> updatePage(@RequestParam Integer id, @RequestParam(required = false) String title, @RequestParam(required = false) String description, @RequestParam(required = false) String content) {
         PageTest pageTest = null;
         pageTest = this.pageTestDao.findByPageId(id);
@@ -50,7 +50,7 @@ public class PageController {
         return new ResponseEntity<PageTest>(pageTest, HttpStatus.OK);
     }
 
-    @RequestMapping(method = RequestMethod.DELETE)
+    @RequestMapping(method = RequestMethod.DELETE, produces = "application/json")
     public ResponseEntity<PageTest> deletePage(@RequestParam Integer id) {
         PageTest pageTest = null;
         pageTest = this.pageTestDao.findOne(id);
