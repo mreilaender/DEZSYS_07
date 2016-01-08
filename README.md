@@ -1,3 +1,8 @@
+# Usage
+    - Replace the credentials in src/main/resources/application.properties with your database username, password and database in the URL
+    - mvn clean install
+    - And finally run the jar in target/reilaender_dezsys7-<version>.jar with java -jar reilaender_dezsys7-<version>.jar
+
 # DEZSYS-07 "SOA AND RESTFUL WEBSERVICE"
 
 Das neu eröffnete Unternehmen **iKnow Systems** ist spezialisiert auf **Knowledgemanagement** und bietet seinen Kunden die Möglichkeiten Daten und Informationen jeglicher Art in eine Wissensbasis einzupflegen und anschließend in der zentralen Wissensbasis nach Informationen zu suchen (ähnlich wikipedia).
